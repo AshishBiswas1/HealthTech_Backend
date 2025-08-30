@@ -20,7 +20,6 @@ exports.addLabReport = catchAsync(async (req, res, next) => {
     });
 });
 
-console.log("Ok");
 
 exports.getAllLabReports = catchAsync(async (req, res, next) => {
     const labreports = await labReport.find();

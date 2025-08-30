@@ -1,0 +1,31 @@
+{
+  "name": "helthtech",
+  "version": "1.0.0",
+  "description": "Project on healthTech where a patient can interact with the doctor directly.",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshishBiswas1/HealthTech_Backend.git"
+  },
+  "keywords": [
+    "HealthTech",
+    "Doctor",
+    "Patient",
+    "Checkup"
+  ],
+  "author": "Ashish Biswas (The-Semi-Colon)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AshishBiswas1/HealthTech_Backend/issues"
+  },
+  "homepage": "https://github.com/AshishBiswas1/HealthTech_Backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.18.0"
+  }
+}
